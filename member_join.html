@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>회원가입</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="part_top"></div>
+        <div id="logo">
+            <h1>학교 로고</h1>
+        </div>
+        <div id="menu_bar"></div>
+    </div>
+
+    <div id="title_box">
+        <h1>회원가입/신입생 학적 등록</h1>
+    </div>
+    <div id="join_info">
+        <h1>회원가입/ 신입생 학적 등록</h1>
+        <form>
+            <label for="stu_name">이름</label>
+            <input type="text" id="stu_name" name="stu_name">
+            
+            <label for="stu_birth">생년월일</label>
+            <input type="text" id="stu_birth" name="stu_birth">
+
+            <label for="exam_num">수험번호</label>
+            <input type="text" id="exam_num" name="exam_num">
+
+            <input type="button" name="조회">
+            
+            
+            <label for="stu_num">학번</label>
+            <input type="text" id="stu_num" name="stu_num" placeholder="수험 번호 조회 시 자동 입력">
+ 
+            <label for="stu_maj">학과</label>
+            <input type="text" id="stu_maj" name="stu_maj" placeholder="수험 번호 조회 시 자동 입력">
+
+            <label for="stu_mail">메일</label>
+            <input type="email" id="stu_mail" name="stu_mail" placeholder="student@gmail.com">
+            <select id="net/com" name="net/com">
+                <option value="naver.com">naver.com</option>
+                <option value="gmail.com">gmail.com</option>
+                <option value="hanmail.net">hanmail.net</option>
+                <option value="univ.ac.kr"></option>
+            </select>
+
+            <label for="phone">전화번호</label>
+            <input type="stu_tel" id="stu_tel" name="stu_tel" placeholder="010-1234-5678"
+            pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
+
+            <label for="stu_pwd">비밀번호</label>
+            <input type="password" id="stu_pwd" name="stu_pwd">
+
+            <label for="stu_pwd_check">비밀번호 확인</label>
+            <input type="password" id="stu_pwd_check" name="stu_pwd_check">
+            <p>일치</p>
+
+
+        </form>
+    </div>
+
+</body>
+</html>
