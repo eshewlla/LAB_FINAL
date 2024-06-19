@@ -1,0 +1,116 @@
+
+
+#menu_bar, #logo, #login{
+    display:inline-block;
+}
+
+#logo{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color:white;
+    background-color: #5f1470;
+}
+
+#login a{
+    color:white;
+}
+
+
+#part_top{
+    display:inline-block;
+    width:100%;
+    height: 110px;
+    background-color: #642c93;
+    color:white;
+}
+
+#slide_img_g{
+    width: 100%;
+    height: 800px;
+}
+
+
+#menu_bar{
+    width: 900px;
+    text-align: center;
+    background-color: #5f1470;
+    margin-top:0px;
+}
+
+.menu{
+    width: 100px;
+    height: 60px;
+    display:inline-block;
+
+    text-align: center;
+    background-color: #5f1470;
+    color:white;
+}
+
+
+#site_menu{
+    display:flex;
+    width:100%;
+    background-color: #7b61ab;
+    justify-content: center;
+}
+
+.s_menu{
+    color:white;
+    display:inline-block;
+    text-align:center;
+    width: 200px;
+    height: 80px;
+    border: solid 1px white;
+    line-height:80px;
+    font-size: 20px;
+}
+
+#part_middle{
+    background-color: #642c93;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+#notice, #school_event {
+    display:inline-block;
+
+
+}
+
+#notice{
+    width:500px;
+    height:400px;
+
+    padding: 20px;
+    background-color: #e6d4f6;
+    border: solid 4px #180f24
+}
+
+#school_event{
+    width:500px;
+    height:400px;
+
+    padding: 20px;
+
+    background-color: #e6d4f6;
+    border: solid 4px #180f24
+}
+
+.con_box{
+    background-color: #f9f9f9;
+    height:300px;
+}
+
+#school_news{
+
+    width: 100%;
+    height: 300px;
+}
+
+#part_bottom{
+    text-align: center;
+}
