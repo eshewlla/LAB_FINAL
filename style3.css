@@ -1,126 +1,49 @@
-
-
-#menu_bar, #logo{
-    display:inline-block;
+#login_box{
+    width: 500px;
+    height: 400px;
+    background-color: #a489cb;
 }
 
-#logo{
-    width: 200px;
-    height: 100px;
-    text-align: center;
-    line-height: 100px;
+
+#u_pwd{
+    margin-top:20px;
+    width: 210px;
+    height: 55px;
+    font-size: 17px;
+    color:#3f1351;
+}
+
+#u_id{
+    margin-top: 50px;
+    width: 210px;
+    height: 55px;
+    font-size: 17px;
+    color:#3f1351;
+}
+
+#id_pwd_box{
+    float:left;
+    margin: 50px;
+}
+
+#login_bt{
+    float:right;
+
+    width:140px;
+    height:120px;
+
+    margin-right: 40px;
+    margin-top:110px;
+
+    background-color: #3f1351;
     color:white;
-    background-color: #5f1470;
+    font-size: 20px;
 }
 
-#part_top{
-    display:inline-block;
-    width:100%;
-    height: 110px;
-    background-color: #642c93;
-    color:white;
-}
-
-#menu_bar{
-    width: 900px;
-    text-align: center;
-    background-color: #5f1470;
+p{
     margin-top:0px;
-}
-
-.menu{
-    width: 100px;
-    height: 60px;
-    display:inline-block;
-
-    text-align: center;
-    background-color: #5f1470;
+    margin-right:150px;
+    padding-left: 30px;
     color:white;
+    float: left;
 }
-
-#title_box{
-    width:100%;
-    height:300px;
-    background-color: #401350;
-
-    font-size: 25px;
-    color:white;
-    text-align:center;
-    line-height:300px;
-}
-
-#title_box h1{
-    margin:0px;
-}
-
-
-#part_middle{
-    width:100%;
-    height:1400px;
-    display:grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(8,1fr);
-    grid-template-areas: 
-    "box1 box2 box2 box2 box2 box2"
-    "box1 box3 box3 box3 box3 box3"
-    "box1 box3 box3 box3 box3 box3"
-    "box1 box3 box3 box3 box3 box3"
-    "box1 box3 box3 box3 box3 box3"
-    "box1 box3 box3 box3 box3 box3"
-    "box1 box3 box3 box3 box3 box3"
-    "box1 box3 box3 box3 box3 box3";
-}
-
-
-#side_menu{
-    background-color: #d8c9ed;
-    display:grid;
-    grid-area:box1;
-}
-
-#side_menu ul{
-    margin-left:10px;
-}
-
-#side_title{
-    height:80px;
-    background-color: #8865bd;
-    color:white;
-}
-
-#side_title h2 {
-    margin-left: 10px;
-}
-
-
-
-#menu_detail_bar{
-    height:80px;
-    background-color: #642c93;
-    grid-area:box2;
-}
-
-.menu_det{
-    display:inline-block;
-    width:200px;
-    height:80px;
-    font-size: 19px;
-    color:white;
-    background-color:#ac8fd4;
-    text-align:center;
-    line-height:80px;
-}
-
-#contents{
-    display:grid;
-    grid-area:box3;
-    padding-left: 40px;
-    margin-top:-95px;
-    background-color: #eae1f7;
-}
-
-
-#part_bottom{
-    text-align: center;
-}
-
